@@ -7,5 +7,15 @@
 }
 
 .items-container {
-	width: 500px;
+	width: 400px;
+}
+
+@media (max-width: 600px) {
+  .ListComponent {
+    width: 100%;
+  }
+
+  .items-container {
+    width: 80%;
+  }
 }
