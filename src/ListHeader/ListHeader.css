@@ -1,0 +1,14 @@
+.ListHeader {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    background-color: #D0E2FE;
+    margin-bottom: 20px;
+    padding: 0 10px;
+}
+
+.app-title {
+    font-size: 20px;
+    font-weight: bold;
+}

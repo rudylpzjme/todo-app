@@ -1,0 +1,22 @@
+.ListItem {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 40px;
+	margin-bottom: 10px;
+	padding: 0 10px;
+}
+
+.completed {
+	background-color: #D1E7DE;
+	text-decoration: line-through;
+}
+
+.overdue {
+	background-color: #F9D7D9;
+	text-decoration: line-through;
+}
+
+.pending {
+	background-color: #D3D3D4;
+}
